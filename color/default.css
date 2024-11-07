@@ -21,9 +21,20 @@ a, a:hover {
 }
 
 .navbar-default {
-  background: #00c1c1;
+  background-color: black;
 }
 
+.navbar-default.fixed-to-top:before {
+  /* content: '';
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0; */
+}
 .form-control:focus {
   border-color: #00c1c1;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
